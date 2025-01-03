@@ -51,7 +51,7 @@
 
         default_layer {
             bindings = <
-    &tog 1       &kp KP_DIVIDE  &kp KP_MULTIPLY  &lt 1 KP_MINUS
+    &tog 1       &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS
     &kp HOME     &kp UP         &kp PG_UP        &kp KP_PLUS
     &kp LEFT     &mo 2          &kp RIGHT
     &kp END      &kp DOWN       &kp PG_DN        &kp KP_ENTER
@@ -60,7 +60,7 @@
         };
         number_layer {
             bindings = <
-    &mo 2       &kp KP_DIVIDE  &kp KP_MULTIPLY   &lt 2 KP_MINUS
+    &tog 1       &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS
     &kp KP_N7    &kp KP_N8      &kp KP_N9        &kp KP_PLUS
     &kp KP_N4    &kp KP_N5      &kp KP_N6
     &kp KP_N1    &kp KP_N2      &kp KP_N3        &kp KP_ENTER
@@ -69,7 +69,7 @@
         };
         function_layer {
             bindings = <
-    &trans       &trans         &trans           &lt 0 KP_MINUS
+    &trans       &tog 1         &trans           &lt 0 KP_MINUS
     &kp DEL      &out OUT_TOG   &kp BSPC         &trans
     &trans       &trans         &trans
     &bt BT_SEL 0 &bt BT_SEL 1   &bt BT_SEL 2     &sys_reset
